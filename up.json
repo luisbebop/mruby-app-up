@@ -1,0 +1,12 @@
+{
+  "name": "mruby-app-up",
+  "hooks": {
+    "build": "make"
+  },
+  "proxy": {
+    "command": "./mruby app.rb"
+  },
+  "lambda": {
+    "memory": 1024
+  }
+}
