@@ -4,7 +4,7 @@
     "build": "make"
   },
   "proxy": {
-    "command": "./mruby app.rb"
+    "command": "./mruby app.rb -p $PORT"
   },
   "lambda": {
     "memory": 1024
